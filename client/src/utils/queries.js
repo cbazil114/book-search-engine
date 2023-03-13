@@ -6,8 +6,9 @@ export const QUERY_ME = gql`
             _id
             bookCount
             email
+            username
             savedBooks {
-              _id
+              bookId
               authors
               description
               bookId
@@ -15,7 +16,6 @@ export const QUERY_ME = gql`
               link
               title
             }
-            username
           }
     }
 `

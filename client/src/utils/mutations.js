@@ -29,6 +29,8 @@ mutation saveBook($input: saveBookInput) {
   saveBook(input: $input) {
     _id
     bookCount
+    username
+    email
     savedBooks {
       _id
       authors
@@ -38,23 +40,24 @@ mutation saveBook($input: saveBookInput) {
       link
       title
     }
-    email
-    username
   }
 }
 `;
 
-export const ADD_COMMENT = gql`
-  mutation addComment($thoughtId: ID!, $commentText: String!) {
-    addComment(thoughtId: $thoughtId, commentText: $commentText) {
+export const REMOVE_BOOK = gql`
+  mutation removeBook($bookId: ID!) {
+    removeBook(bookId: $bookId) {
       _id
-      thoughtText
-      thoughtAuthor
-      createdAt
-      comments {
-        _id
-        commentText
-        createdAt
+      username
+      email
+      bookCount
+      savedBooks {
+        bookId
+        authors
+        description
+        title
+        link
+        image
       }
     }
   }
