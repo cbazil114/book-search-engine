@@ -32,7 +32,7 @@ mutation saveBook($input: saveBookInput) {
     username
     email
     savedBooks {
-      _id
+      bookId
       authors
       bookId
       description
