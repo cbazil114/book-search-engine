@@ -277,6 +277,8 @@ The purpose of this project is to test my abilities to refactor working code fro
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Deployment](#deployment)
+  * [Screenshot](#screenshot)
   * [Questions](#questions)
 
 ## Installation
@@ -296,10 +298,13 @@ The repository is public, and can be accessed, and adjusted, by anyone with a Gi
 
 Once you have done the final step in the Usage section, you can access the application using Insomnia to test the GET, POST, PUT, and DELETE capabilities. Below in the walkth
 
-## Walkthrough
+## Deployment
 
-Watch the walkthrough video at the following link: 
-[Screencastify](https://drive.google.com/file/d/1Ss5zzUH3B-OtWlWvC7QG8TRwoZvgFnwj/view)
+
+
+## Screenshot
+
+
 
 ## Questions
 
