@@ -262,3 +262,49 @@ You are required to submit BOTH of the following for review:
 
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+# book-search-engine
+
+## Description
+
+The purpose of this project is to test my abilities to refactor working code from a RESTful API build to a GraphQL API utilizing an Apollo Server. The initial code allowed users to search for books, and add/remove them from their saved books collection. 
+
+## Table of Contents
+
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+## Installation
+
+After cloning the repository to your local computer, you will then need the necessary dependencies. The simplest way is to access your folder via the command line/terminal, and use the code ```npm i``` to install everything you need. 
+
+## Usage
+
+After you've done the necessary installation, all you need to run the project is to use the following command:
+```npm start```
+
+## Contributions
+
+The repository is public, and can be accessed, and adjusted, by anyone with a Github account.
+
+## Tests
+
+Once you have done the final step in the Usage section, you can access the application using Insomnia to test the GET, POST, PUT, and DELETE capabilities. Below in the walkth
+
+## Walkthrough
+
+Watch the walkthrough video at the following link: 
+[Screencastify](https://drive.google.com/file/d/1Ss5zzUH3B-OtWlWvC7QG8TRwoZvgFnwj/view)
+
+## Questions
+
+  If you would like to see other projects, visit my Github page at: GitHub: https://github.com/cbazil114 
+  <br>
+  Do you have any questions? If so, contact me at: 
+  <br>
+  Email: connor-bazil@comcast.net
