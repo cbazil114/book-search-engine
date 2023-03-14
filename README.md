@@ -268,7 +268,7 @@ You are required to submit BOTH of the following for review:
 
 ## Description
 
-The purpose of this project is to test my abilities to refactor working code from a RESTful API build to a GraphQL API utilizing an Apollo Server. The initial code allowed users to search for books, and add/remove them from their saved books collection. 
+For this application, I take starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end. 
 
 ## Table of Contents
 
@@ -283,7 +283,7 @@ The purpose of this project is to test my abilities to refactor working code fro
 
 ## Installation
 
-After cloning the repository to your local computer, you will then need the necessary dependencies. The simplest way is to access your folder via the command line/terminal, and use the code ```npm i``` to install everything you need. 
+After cloning the repository to your local computer, you will then need the necessary dependencies. The simplest way is to access your folder via the command line/terminal, and use the code ```npm install``` to install everything you need. 
 
 ## Usage
 
@@ -296,11 +296,16 @@ The repository is public, and can be accessed, and adjusted, by anyone with a Gi
 
 ## Tests
 
-Once you have done the final step in the Usage section, you can access the application using Insomnia to test the GET, POST, PUT, and DELETE capabilities. Below in the walkth
+Once you have all of the dependencies installed, you can run the app using ```npm run develop``` or you can test things out in using GraphQL's query server. 
 
 ## Deployment
 
+The application is deployed via Heroku:
 
+[Heroku](https://safe-sierra-08414.herokuapp.com/)
+
+The GitHub repository can be accessed at:
+[GitHub](https://github.com/cbazil114/book-search-engine)
 
 ## Screenshot
 
